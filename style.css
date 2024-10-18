@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    padding: 15px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #000;
+}
+
+.hero {
+    background-color: #f8f8f8;
+    color: #000;
+}
+
+.hero h1 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.hero p {
+    color: #666;
+}
+
+.btn-dark {
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+.portfolio {
+    background-color: #f8f8f8;
+}
+
+.portfolio .filters {
+    margin-bottom: 20px;
+}
+
+.portfolio .filters .btn-link {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.portfolio .img-fluid {
+    border-radius: 5px;
+}
+/* Estilo do botão My Courses */
+.btn-dark {
+    background-color: #000; /* Cor do fundo */
+    color: #fff; /* Cor do texto */
+    padding: 10px 30px; /* Espaçamento interno */
+    border-radius: 50px; /* Borda arredondada */
+    border: none; /* Remover borda padrão */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Suavização nas transições */
+}
+
+.btn-dark:hover {
+    background-color: #444; /* Cor mais clara ao passar o mouse */
+    transform: translateY(-2px); /* Pequeno efeito de elevação ao hover */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+/* Sombreamento e animação de fade-in */
+.img-fluid {
+    opacity: 0; /* Começar invisível */
+    transform: scale(0.9); /* Leve redução de escala */
+    transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out, box-shadow 0.6s ease-in-out; /* Transição suave */
+}
+
+.img-fluid.show {
+    opacity: 1; /* Torna visível quando a classe 'show' é adicionada */
+    transform: scale(1); /* Escala normal */
+}
+
+.img-fluid:hover {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2); /* Sombra ao passar o mouse */
+    transform: scale(1.03); /* Aumenta um pouco ao hover */
+}
+.hover-effect {
+    transition: all 0.3s ease-in-out; /* Transição suave para o hover */
+}
+
+.hover-effect:hover {
+    font-weight: bold; /* Negrito */
+    font-style: italic; /* Itálico */
+    text-decoration: underline; /* Sublinhado */
+}
+.logo-letter {
+    font-size: 1.3rem; /* Tamanho da letra */
+    font-weight: bold; /* Negrito */
+    color: #000000; /* Cor que você preferir */
+    margin-right: 5px; /* Espaço entre a letra e o nome */
+    display: inline-block; /* Para garantir que o estilo seja aplicado corretamente */
+}
+
+.logo-letter {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra do texto */
+}
+
+
+
+
+
+

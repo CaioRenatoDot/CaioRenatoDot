@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Designer Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<div class="shape circle left-shape"></div>
+<div class="shape triangle right-shape"></div>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span class="logo-letter">C.</span> RENATO
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Sobre mim</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section class="hero text-center py-5">
+        <div class="container">
+            <h1>OLÁ! SOU CAIO RENATO</h1>
+            <h3 class="text-muted">SOU UM <span class="hover-effect">WEB DEV</span></h3>
+            <p class="lead">E ESTE É MEU PORTIFOLIO, VEJA ALGUMAS INFORMAÇÕES SOBRE MIM:</p>
+            <button class="btn btn-dark mt-3">Minha Carreira</button>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio py-5">
+        <div class="container text-center">
+            <div class="filters">
+                <p class="btn btn-link">MEUS PROJETOS</p>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <img src="https://i.pinimg.com/enabled_hi/564x/a1/99/ca/a199caccdf8bde83667996712e444775.jpg" alt="Portfolio 1" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://i.pinimg.com/enabled_hi/564x/33/a5/14/33a514ecfb10afb4d9fb685e1f922bef.jpg" alt="Portfolio 2" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://i.pinimg.com/enabled_hi/564x/2b/ec/f7/2becf7279b68377c8947340e26fac576.jpg" alt="Portfolio 3" class="img-fluid">
+                </div>
+                <div class="col-md-4 mt-4">
+                    <img src="https://i.pinimg.com/736x/c2/7b/db/c27bdb6dd8b2a15c9b97b883da14037f.jpg" alt="Portfolio 4" class="img-fluid">
+                </div>
+                <div class="col-md-4 mt-4">
+                    <img src="https://i.pinimg.com/736x/21/4d/14/214d14b24471150b9904f64fbcd94e1a.jpg" alt="Portfolio 5" class="img-fluid">
+                </div>
+                <div class="col-md-4 mt-4">
+                    <img src="https://i.pinimg.com/736x/7a/95/cb/7a95cbb2aba82efdb0713bd43b647888.jpg" alt="Portfolio 6" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        
+        <section class="skills py-5 bg-light">
+            <div class="container text-center">
+                <h2 class="mb-4">Skills</h2>
+                <p class="lead mb-4">Aqui estão algumas das minhas principais habilidades.</p>
+                <div class="row">
+                    <div class="col-md-4 skill">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/html5.svg" alt="HTML" width="50">
+                        <h4>HTML & CSS</h4>
+                        <p>Construção de sites responsivos e funcionais.</p>
+                    </div>
+                    <div class="col-md-4 skill">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/javascript.svg" alt="JavaScript" width="50">
+                        <h4>JavaScript</h4>
+                        <p>Interatividade e dinâmicas no frontend.</p>
+                    </div>
+                    <div class="col-md-4 skill">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/python.svg" alt="Python" width="50">
+                        <h4>Python</h4>
+                        <p>Desenvolvimento backend e automações.</p>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4 skill">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/react.svg" alt="React" width="50">
+                        <h4>React</h4>
+                        <p>Criação de interfaces de usuário modernas.</p>
+                    </div>
+                    <div class="col-md-4 skill">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/bootstrap.svg" alt="Bootstrap" width="50">
+                        <h4>Bootstrap</h4>
+                        <p>Framework CSS para projetos rápidos e responsivos.</p>
+                    </div>
+                    <div class="col-md-4 skill">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/git.svg" alt="Git" width="50">
+                        <h4>Git & GitHub</h4>
+                        <p>Controle de versão e colaboração em equipe.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Função para verificar se a imagem está visível no viewport
+        function isElementInViewport(el) {
+            const rect = el.getBoundingClientRect();
+            return (
+                rect.top >= 0 &&
+                rect.left >= 0 &&
+                rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+            );
+        }
+    
+        // Função para adicionar a classe 'show' quando a imagem está no viewport
+        function showImagesOnScroll() {
+            const images = document.querySelectorAll('.img-fluid');
+            images.forEach(image => {
+                if (isElementInViewport(image)) {
+                    image.classList.add('show');
+                }
+            });
+        }
+    
+        // Escutar o evento de scroll e ativar a função
+        window.addEventListener('scroll', showImagesOnScroll);
+    
+        // Também chamar a função quando a página carregar para verificar os elementos já visíveis
+        document.addEventListener('DOMContentLoaded', showImagesOnScroll);
+    </script>
+    
+</body>
+</html>
