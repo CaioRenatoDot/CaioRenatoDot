@@ -100,6 +100,55 @@ body {
 .logo-letter {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra do texto */
 }
+/* Estilos para a div de overlay */
+.portfolio-item {
+    position: relative;
+}
+
+.project-overlay {
+    position: relative;
+    overflow: hidden;
+}
+
+.project-overlay .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
+    font-weight: bold;
+}
+
+.project-overlay.completed:hover .overlay-text {
+    opacity: 1;
+    content: "Projeto Concluído";
+}
+
+.project-overlay.in-progress:hover .overlay-text {
+    opacity: 1;
+    content: "Em Andamento";
+}
+
+/* Estilo específico para cada estado */
+.completed .overlay-text {
+    background-color: rgba(0, 150, 0, 0.7); /* Verde para concluído */
+}
+
+.in-progress .overlay-text {
+    background-color: rgba(255, 165, 0, 0.7); /* Laranja para em andamento */
+}
+
+/* Estilo de opacidade na imagem em hover */
+.project-overlay:hover img {
+    opacity: 0.6;
+}
+
 
 
 
