@@ -124,6 +124,60 @@
             </div>
         </div>
     </section>
+    <!-- Footer -->
+<footer class="text-center py-4" style="background-color: #333; color: white; font-size: 14px; position: relative; overflow: hidden;">
+    <div class="container">
+        <hr style="border-color: #555; margin-bottom: 20px;">
+        <div class="social-icons mb-3">
+            <a href="https://github.com/caiorenatodot" target="_blank" style="color: #ccc; margin: 0 15px; font-size: 24px;">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/caiorenato" target="_blank" style="color: #ccc; margin: 0 15px; font-size: 24px;">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="mailto:caiorenato146@gmail.com" style="color: #ccc; margin: 0 15px; font-size: 24px;">
+                <i class="bi bi-envelope"></i>
+            </a>
+        </div>
+        <p>&copy; 2024 Caio Renato. Todos os direitos reservados.</p>
+        <p><a href="mailto:caiorenato146@gmail.com" style="color: #ccc; text-decoration: none; transition: color 0.3s ease;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#ccc'">Contato</a></p>
+    </div>
+    <style>
+        footer {
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+
+        footer.show {
+            opacity: 1;
+        }
+    </style>
+</footer>
+
+<script>
+    function isElementInViewport(el) {
+        const rect = el.getBoundingClientRect();
+        return (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+    }
+
+    function showFooterOnScroll() {
+        const footer = document.querySelector('footer');
+        if (isElementInViewport(footer)) {
+            footer.classList.add('show');
+        }
+    }
+
+    window.addEventListener('scroll', showFooterOnScroll);
+    document.addEventListener('DOMContentLoaded', showFooterOnScroll);
+</script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script>
