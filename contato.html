@@ -47,9 +47,9 @@
                     <img src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/github.svg" alt="GitHub" width="40">
                 </a>
             </div>
-
+            
             <!-- Contact Form -->
-            <form action="https://formsubmit.co/196336feed00abcab4c83922663e68d6" method="POST" class="contact-form mx-auto" style="max-width: 600px;">
+            <form action="https://formsubmit.co/196336feed00abcab4c83922663e68d6" method="POST" class="contact-form mx-auto" style="max-width: 600px;" onsubmit="return showThankYouMessage()">
                 <div class="mb-3">
                     <label for="name" class="form-label">Nome</label>
                     <input type="text" class="form-control" id="name" name="name" required>
@@ -64,6 +64,12 @@
                 </div>
                 <button type="submit" class="btn btn-dark">Enviar</button>
             </form>
+            <script>
+                function showThankYouMessage() {
+                    alert("Obrigado por entrar em contato! Sua mensagem foi enviada com sucesso.");
+                    return true;  // Permite que o formulário seja enviado após exibir o pop-up
+                }
+            </script>
         </div>
     </section>
     <!-- Footer -->
