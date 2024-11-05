@@ -177,3 +177,10 @@ body {
     height: 2px; /* Espessura da linha */
     background-color: #adb5bd; /* Cor da linha */
 }
+.img-custom {
+    width: 400px;
+    height: 400px;
+    object-fit: cover; /* Mantém o conteúdo da imagem dentro do tamanho especificado */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4); /* Sombra leve */
+    border-radius: 8px;
+}
