@@ -1,5 +1,3 @@
-## Ola! 👋
-
 # Portfólio Pessoal
 
 Este repositório contém o código-fonte do meu portfólio pessoal, desenvolvido com um layout simples e minimalista em preto e branco.
