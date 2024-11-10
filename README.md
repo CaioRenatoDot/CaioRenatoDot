@@ -4,7 +4,7 @@ I'm a passionate developer with experience in various languages and tools, and I
 
 ## 🛠️ Technologies I Use
 
-- **Languages:** Python, HTML, CSS, JavaScript
+- **Languages:** Python,Java and JavaScript
 - **Frameworks and Libraries:** Bootstrap, React
 
 ## 🌟 Featured Projects
