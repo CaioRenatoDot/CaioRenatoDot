@@ -4,13 +4,8 @@ I'm a passionate developer with experience in various languages and tools, and I
 
 ## 🛠️ Technologies I Use
 
-- **Languages:** Python, Java and JavaScript
-- **Frameworks and Libraries:** Bootstrap, React
-
-## 🌟 Featured Projects
-
-- 📂 **Personal Portfolio**: A simple black-and-white layout site created using Bootstrap, HTML, CSS, and JavaScript.
-- 🖥️ **React Projects**: Interactive applications built in React for a dynamic user experience.
+- **Languages:** Python, C++, Java and JavaScript
+- **Frameworks and Libraries:** Bootstrap, Tailwind and React
 
 ## 📫 Connect with Me
 
