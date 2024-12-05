@@ -13,4 +13,7 @@ I'm a passionate developer with experience in various languages and tools, and I
 - GitHub: github.com/CaioRenatoDot
 - Email: caiorenato146@gmail.com
 
+## My Github Stats
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+
 Thank you for visiting my profile!
