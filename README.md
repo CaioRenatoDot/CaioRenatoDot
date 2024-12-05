@@ -4,8 +4,7 @@ I'm a passionate developer with experience in various languages and tools, and I
 
 ## 🛠️ Technologies I Use
 
-- **Languages:** Python, C++, Java and JavaScript
-- **Frameworks and Libraries:** Bootstrap, Tailwind and React
+https://user-images.githubusercontent.com/25181517/192106073-90fffafe-3562-4ff9-a37e-c77a2da0ff58.png
 
 ## 📫 Connect with Me
 
