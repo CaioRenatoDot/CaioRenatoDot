@@ -1,4 +1,4 @@
-# CaioRenatoDot - Github profile
+# ⚫ CaioRenatoDot 
 
 I'm a passionate developer with experience in various languages and tools, and I enjoy creating efficient and well-structured solutions. Here you'll find projects that showcase my continuous learning and dedication to technology.
 
