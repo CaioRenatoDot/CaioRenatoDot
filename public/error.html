@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página não encontrada | CaioRenatoDot</title>
+    <meta name="description" content="Página não encontrada no portfólio de Caio Renato.">
+    <link rel="icon" href="images/android-chrome-192x192.png" type="image/png">
+    <link rel="stylesheet" href="dist/styles.css">
+    <link rel="stylesheet" href="site.css">
+</head>
+<body class="site-body">
+    <div class="ambient-background" aria-hidden="true">
+        <span class="ambient-background__orb ambient-background__orb--one"></span>
+        <span class="ambient-background__orb ambient-background__orb--two"></span>
+        <span class="ambient-background__orb ambient-background__orb--three"></span>
+        <span class="ambient-background__grid"></span>
+    </div>
+    <header class="site-header">
+        <nav class="site-nav">
+            <a href="index.html" class="brand-mark" aria-label="Página inicial CaioRenatoDot">
+                <img src="images/android-chrome-192x192.png" class="brand-mark__logo" alt="Logo CaioRenatoDot">
+                <span class="brand-mark__text">CaioRenatoDot</span>
+            </a>
+
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navbar-menu" data-menu-toggle>
+                <span class="sr-only">Abrir menu principal</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"></path>
+                </svg>
+            </button>
+
+            <div class="nav-links" id="navbar-menu" data-menu>
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="aboutme.html" class="nav-link">Sobre mim</a>
+                <a href="contato.html" class="nav-link nav-link--cta">Contato</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="error-page">
+        <section class="site-shell error-card">
+            <span class="section-tag">Erro 404</span>
+            <h1>Essa página ainda não está disponível.</h1>
+            <p>
+                O conteúdo que você tentou acessar ainda não foi publicado ou o link não existe mais.
+            </p>
+            <div class="hero-actions">
+                <a href="index.html" class="primary-button">Voltar para a home</a>
+                <a href="contato.html" class="secondary-button">Entrar em contato</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-shell footer-bottom">
+            <p>Copyright © 2026. Criado por Caio Renato.</p>
+        </div>
+    </footer>
+
+    <script>
+        const menuToggle = document.querySelector("[data-menu-toggle]");
+        const menu = document.querySelector("[data-menu]");
+
+        if (menuToggle && menu) {
+            menuToggle.addEventListener("click", function () {
+                const isOpen = menu.classList.toggle("is-open");
+                menuToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+            });
+        }
+    </script>
+</body>
+</html>
