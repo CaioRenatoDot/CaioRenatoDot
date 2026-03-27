@@ -1,162 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre Mim - CaioRenatoDot</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="favicon-32x32.png" type
-
+    <title>Sobre mim | CaioRenatoDot</title>
+    <meta name="description" content="Conheça a trajetória de Caio Renato com tecnologia, desenvolvimento e aprendizado contínuo.">
+    <link rel="icon" href="images/android-chrome-192x192.png" type="image/png">
+    <link rel="stylesheet" href="dist/styles.css">
+    <link rel="stylesheet" href="site.css">
 </head>
-<div class="shape circle left-shape"></div>
-<div class="shape triangle right-shape"></div>
-
-<body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="android-chrome-192x192.png" alt="Logo" style="width: 40px; height: auto; vertical-align: middle;">
+<body class="site-body">
+    <div class="ambient-background" aria-hidden="true">
+        <span class="ambient-background__orb ambient-background__orb--one"></span>
+        <span class="ambient-background__orb ambient-background__orb--two"></span>
+        <span class="ambient-background__orb ambient-background__orb--three"></span>
+        <span class="ambient-background__grid"></span>
+    </div>
+    <header class="site-header">
+        <nav class="site-nav">
+            <a href="index.html" class="brand-mark" aria-label="Página inicial CaioRenatoDot">
+                <img src="images/android-chrome-192x192.png" class="brand-mark__logo" alt="Logo CaioRenatoDot">
+                <span class="brand-mark__text">CaioRenatoDot</span>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navbar-menu" data-menu-toggle>
+                <span class="sr-only">Abrir menu principal</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"></path>
+                </svg>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="aboutme.html">Sobre mim</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
-                </ul>
+
+            <div class="nav-links" id="navbar-menu" data-menu>
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="aboutme.html" class="nav-link is-active">Sobre mim</a>
+                <a href="contato.html" class="nav-link nav-link--cta">Contato</a>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-    <!-- Hero Section -->
-    <section class="hero text-center py-5">
-        <div class="container">
-            <h1>UM POUCO SOBRE MIM</h1>
-            <h3 class="text-muted">SOU CAIO RENATO, UM ENTUSIASTA DA TECNOLOGIA</h3>
-            <p class="lead">Estou sempre buscando aprender e me aprimorar na área de Ciência da Computação.</p>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="about py-5 bg-light">
-        <div class="container text-center">
-            <h2 class="mb-4">Minha História</h2>
-            <div>
-                <img src="praiamaceio.jpeg" class="img rounded img-custom" alt="...">
-            </div>
-            <p class="lead mb-4 mt-4">Nascido e criado na linda cidade de Maceió, fui introduzido ao fascinante mundo da tecnologia pelo meu irmão, um verdadeiro entusiasta da área. Seu interesse por sistemas operacionais e reparação de computadores despertou em mim uma paixão pela tecnologia que me acompanha até hoje.</p>
-            <p class="lead mb-4">Atualmente curso Ciência da Computação na Universidade UNIMA, onde venho aprofundando meus conhecimentos em desenvolvimento de software, algoritmos e estruturas de dados, inteligência artificial e redes de computadores. Minha formação está focada tanto no desenvolvimento prático quanto no entendimento teórico das tecnologias que impulsionam a computação moderna.</p>
-
-            <button class="btn btn-dark mt-3" onclick="window.location.href='index.html'">Veja meus projetos</button>
-        </div>
-    </section>
-        <!-- Career Section -->
-        <section class="career py-5">
-            <div class="container text-center">
-                <h2 class="mb-4">Minha Carreira e Interesses</h2>
-                <p class="lead mb-4">Aprofundando meus estudos e explorando o mundo da programação.</p>
-                <p class="mb-4">
-                    Sou um entusiasta de <strong>Python</strong>, <strong>C++</strong> e <strong>desenvolvimento web</strong>, focado em tecnologias como HTML, CSS, Bootstrap, Tailwind, JavaScript e React. Tenho buscado constantemente aprimorar minhas habilidades nessas áreas, desenvolvendo projetos e adquirindo uma compreensão sólida de como criar aplicações eficientes e responsivas.
+    <main>
+        <section class="page-hero">
+            <div class="site-shell page-hero__content">
+                <span class="section-tag">Minha jornada</span>
+                <h1>Curiosidade, prática e tecnologia como caminho de construção.</h1>
+                <p>
+                    Minha história com tecnologia começou cedo e segue crescendo com estudo, experimentação e vontade real de criar soluções úteis.
                 </p>
-                <p class="mb-4">
-                    Além disso, tenho um grande interesse por <strong>estruturas de dados e algoritmos (DSA)</strong>. Adoro desafios e estou sempre praticando no <a href="https://leetcode.com" target="_blank" style="color: #0d6efd; text-decoration: none;">LeetCode</a>, onde posso melhorar minhas habilidades de resolução de problemas e lógica. Esses conhecimentos me ajudam a abordar problemas de programação de forma mais eficaz e a construir soluções otimizadas.
-                </p>
-                <p class="mb-4">Minha jornada de aprendizado é <strong>exponencial</strong>. A cada projeto que concluo, sinto que estou um passo mais próximo de alcançar o nível de excelência que estou buscando, combinando teoria e prática para chegar nas soluções que procuro.</p>
             </div>
         </section>
 
+        <section class="section-block">
+            <div class="site-shell story-layout">
+                <article class="story-card">
+                    <h2>Como tudo começou</h2>
+                    <p>
+                        Desde cedo, a curiosidade pela tecnologia me cativou. Foi através do meu irmão que tive meu primeiro contato mais marcante com esse universo. Ver computadores sendo desmontados, peças sendo explicadas e sistemas sendo restaurados despertou em mim um interesse genuíno por entender como tudo funcionava.
+                    </p>
+                    <p>
+                        A formatação de máquinas e a ideia de "recomeçar do zero" sempre me pareciam fascinantes. Aos poucos, aquela curiosidade inicial deixou de ser apenas admiração e passou a se transformar em vontade de aprender, construir e inovar por conta própria.
+                    </p>
+                </article>
 
+                <aside class="story-panel">
+                    <div class="story-panel__box">
+                        <span>Foco atual</span>
+                        <strong>Ciência da Computação, desenvolvimento web, IA e fundamentos sólidos.</strong>
+                    </div>
+                    <div class="story-panel__box">
+                        <span>Motivação</span>
+                        <strong>Usar tecnologia para transformar ideias em experiências acessíveis e bem executadas.</strong>
+                    </div>
+                </aside>
+            </div>
+        </section>
 
-    <!-- Skills Section -->
-    <section class="skills py-5">
-        <div class="container text-center">
-            <h2 class="mb-4">Minhas Habilidades</h2>
-            <p class="lead mb-4">Aqui estão algumas das minhas principais habilidades.</p>
-            <div class="row">
-                <div class="col-md-4 skill">
-                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/html5.svg" alt="HTML" width="50">
-                    <h4>HTML, CSS & React</h4>
-                    <p>Construção de sites responsivos e funcionais.</p>
+        <section class="section-block section-block--soft">
+            <div class="site-shell reading-width">
+                <article class="story-card">
+                    <h2>Desafios e aprendizados</h2>
+                    <p>
+                        Comecei com pequenos projetos em Python, explorando lógica, dados e automações. Com o tempo, esse interesse se expandiu para sites, interfaces e aplicações mais completas. Hoje, estudo Ciência da Computação e sigo desenvolvendo soluções com uma visão mais ampla de produto, estrutura e experiência.
+                    </p>
+                    <blockquote class="story-quote">
+                        "A tecnologia é a ponte entre ideias e impacto. Meu objetivo é construir um mundo onde essa ponte seja acessível a todos."
+                    </blockquote>
+                    <p>
+                        Meu foco é continuar aprendendo e evoluindo. Tenho explorado C++ com bastante entusiasmo, principalmente pelo seu desempenho e pela profundidade que oferece em fundamentos da computação. Cada novo estudo reforça meu compromisso com a área e minha vontade de crescer como desenvolvedor.
+                    </p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-shell footer-grid">
+            <div>
+                <a href="index.html" class="brand-mark brand-mark--footer">
+                    <img src="images/android-chrome-192x192.png" class="brand-mark__logo" alt="Logo CaioRenatoDot">
+                    <span class="brand-mark__text">CaioRenatoDot</span>
+                </a>
+                <p class="footer-copy">
+                    Portfólio pessoal com projetos, estudos e evolução constante em desenvolvimento de software.
+                </p>
+            </div>
+            <div class="footer-links">
+                <div>
+                    <h3>Navegação</h3>
+                    <a href="index.html">Home</a>
+                    <a href="aboutme.html">Sobre mim</a>
+                    <a href="contato.html">Contato</a>
                 </div>
-                <div class="col-md-4 skill">
-                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/javascript.svg" alt="JavaScript" width="50">
-                    <h4>JavaScript</h4>
-                    <p>Interatividade e dinâmicas no frontend.</p>
-                </div>
-                <div class="col-md-4 skill">
-                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/python.svg" alt="Python" width="50">
-                    <h4>Python</h4>
-                    <p>Desenvolvimento backend, automações e DSA.</p>
-                </div>
-                <p></p>
-                <div class="col-md-12 skill">
-                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@6.23.0/icons/cplusplus.svg" alt="Cpp" width="50">
-                    <h4>C++</h4>
-                    <p>Desenvolvimento backend, LeetCode e DSA.</p>
+                <div>
+                    <h3>Redes</h3>
+                    <a href="https://www.linkedin.com/in/caiorenato/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://github.com/CaioRenatoDot" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="mailto:caiorenato146@gmail.com">Email</a>
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- Footer -->
-<footer class="text-center py-4" style="background-color: #333; color: white; font-size: 14px; position: relative; overflow: hidden;">
-    <div class="container">
-        <hr style="border-color: #555; margin-bottom: 20px;">
-        <div class="social-icons mb-3">
-            <a href="https://github.com/caio-renato" target="_blank" style="color: #ccc; margin: 0 15px; font-size: 24px;">
-                <i class="bi bi-github"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/caio-renato" target="_blank" style="color: #ccc; margin: 0 15px; font-size: 24px;">
-                <i class="bi bi-linkedin"></i>
-            </a>
-            <a href="mailto:caio.renato@email.com" style="color: #ccc; margin: 0 15px; font-size: 24px;">
-                <i class="bi bi-envelope"></i>
-            </a>
+        <div class="site-shell footer-bottom">
+            <p>Copyright © 2026. Criado por Caio Renato.</p>
         </div>
-        <p>&copy; 2024 Caio Renato. Todos os direitos reservados.</p>
-        <p><a href="mailto:caio.renato@email.com" style="color: #ccc; text-decoration: none; transition: color 0.3s ease;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#ccc'">Contato</a></p>
-    </div>
-    <style>
-        footer {
-            opacity: 0;
-            transition: opacity 1s ease-in-out;
+    </footer>
+
+    <script>
+        const menuToggle = document.querySelector("[data-menu-toggle]");
+        const menu = document.querySelector("[data-menu]");
+
+        if (menuToggle && menu) {
+            menuToggle.addEventListener("click", function () {
+                const isOpen = menu.classList.toggle("is-open");
+                menuToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+            });
         }
-
-        footer.show {
-            opacity: 1;
-        }
-    </style>
-</footer>
-
-<script>
-    function isElementInViewport(el) {
-        const rect = el.getBoundingClientRect();
-        return (
-            rect.top >= 0 &&
-            rect.left >= 0 &&
-            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-        );
-    }
-
-    function showFooterOnScroll() {
-        const footer = document.querySelector('footer');
-        if (isElementInViewport(footer)) {
-            footer.classList.add('show');
-        }
-    }
-
-    window.addEventListener('scroll', showFooterOnScroll);
-    document.addEventListener('DOMContentLoaded', showFooterOnScroll);
-</script>
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    </script>
 </body>
 </html>

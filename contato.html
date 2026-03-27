@@ -1,132 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato - CaioRenatoDot</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="favicon-32x32.png" type
-
+    <title>Contato | CaioRenatoDot</title>
+    <meta name="description" content="Entre em contato com Caio Renato para projetos, colaborações e oportunidades.">
+    <link rel="icon" href="images/android-chrome-192x192.png" type="image/png">
+    <link rel="stylesheet" href="dist/styles.css">
+    <link rel="stylesheet" href="site.css">
 </head>
-<body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="android-chrome-192x192.png" alt="Logo" style="width: 40px; height: auto; vertical-align: middle;">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="aboutme.html">Sobre mim</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Contact Section -->
-    <section class="contact py-5">
-        <div class="container text-center">
-            <h2 class="mb-4">Entre em Contato</h2>
-            <p class="lead mb-4">Gostaria de discutir algum projeto ou apenas dizer "Olá?" Fique à vontade para entrar em contato.</p>
-
-            <!-- Social Media Icons -->
-            <div class="d-flex justify-content-center mb-4">
-                <a href="https://www.linkedin.com/in/caiorenato" target="_blank" class="me-3">
-                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/linkedin.svg" alt="LinkedIn" width="40">
-                </a>
-                <a href="mailto:caiorenato146@gmail.com" target="_blank" class="me-3">
-                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/gmail.svg" alt="Email" width="40">
-                </a>
-                <a href="https://github.com/CaioRenatoDot" target="_blank">
-                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/github.svg" alt="GitHub" width="40">
-                </a>
-            </div>
-            
-            <!-- Contact Form -->
-            <form action="https://formsubmit.co/196336feed00abcab4c83922663e68d6" method="POST" class="contact-form mx-auto" style="max-width: 600px;" onsubmit="return showThankYouMessage()">
-                <div class="mb-3">
-                    <label for="name" class="form-label">Nome</label>
-                    <input type="text" class="form-control" id="name" name="name" required>
-                </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" name="email" required>
-                </div>
-                <div class="mb-3">
-                    <label for="message" class="form-label">Mensagem</label>
-                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-dark">Enviar</button>
-            </form>
-            <script>
-                function showThankYouMessage() {
-                    alert("Obrigado por entrar em contato! Sua mensagem foi enviada com sucesso, aguarde mais um pouco para o captcha aparecer.");
-                    return true;  // Permite que o formulário seja enviado após exibir o pop-up
-                }
-            </script>   
-        </div>
-    </section>
-    <!-- Footer -->
-<footer class="text-center py-4" style="background-color: #333; color: white; font-size: 14px; position: relative; overflow: hidden;">
-    <div class="container">
-        <hr style="border-color: #555; margin-bottom: 20px;">
-        <div class="social-icons mb-3">
-            <a href="https://github.com/caio-renato" target="_blank" style="color: #ccc; margin: 0 15px; font-size: 24px;">
-                <i class="bi bi-github"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/caio-renato" target="_blank" style="color: #ccc; margin: 0 15px; font-size: 24px;">
-                <i class="bi bi-linkedin"></i>
-            </a>
-            <a href="mailto:caio.renato@email.com" style="color: #ccc; margin: 0 15px; font-size: 24px;">
-                <i class="bi bi-envelope"></i>
-            </a>
-        </div>
-        <p>&copy; 2024 Caio Renato. Todos os direitos reservados.</p>
-        <p><a href="mailto:caio.renato@email.com" style="color: #ccc; text-decoration: none; transition: color 0.3s ease;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#ccc'">Contato</a></p>
+<body class="site-body">
+    <div class="ambient-background" aria-hidden="true">
+        <span class="ambient-background__orb ambient-background__orb--one"></span>
+        <span class="ambient-background__orb ambient-background__orb--two"></span>
+        <span class="ambient-background__orb ambient-background__orb--three"></span>
+        <span class="ambient-background__grid"></span>
     </div>
-    <style>
-        footer {
-            opacity: 0;
-            transition: opacity 1s ease-in-out;
+    <header class="site-header">
+        <nav class="site-nav">
+            <a href="index.html" class="brand-mark" aria-label="Página inicial CaioRenatoDot">
+                <img src="images/android-chrome-192x192.png" class="brand-mark__logo" alt="Logo CaioRenatoDot">
+                <span class="brand-mark__text">CaioRenatoDot</span>
+            </a>
+
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navbar-menu" data-menu-toggle>
+                <span class="sr-only">Abrir menu principal</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"></path>
+                </svg>
+            </button>
+
+            <div class="nav-links" id="navbar-menu" data-menu>
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="aboutme.html" class="nav-link">Sobre mim</a>
+                <a href="contato.html" class="nav-link nav-link--cta is-active">Contato</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero page-hero--compact">
+            <div class="site-shell page-hero__content">
+                <span class="section-tag">Contato</span>
+                <h1>Vamos conversar sobre ideias, projetos ou oportunidades.</h1>
+                <p>
+                    Se você quer discutir uma colaboração, tirar uma dúvida ou só trocar uma ideia sobre tecnologia, esse é o lugar certo.
+                </p>
+            </div>
+        </section>
+
+        <section class="section-block">
+            <div class="site-shell contact-layout">
+                <div class="contact-panel">
+                    <h2>Canais diretos</h2>
+                    <p>
+                        Prefere falar por rede social ou email? Você pode me encontrar pelos links abaixo.
+                    </p>
+                    <div class="contact-links">
+                        <a href="https://www.linkedin.com/in/caiorenato" target="_blank" rel="noopener noreferrer" class="contact-link-card">
+                            <span>LinkedIn</span>
+                            <strong>/in/caiorenato</strong>
+                        </a>
+                        <a href="mailto:caiorenato146@gmail.com" class="contact-link-card">
+                            <span>Email</span>
+                            <strong>caiorenato146@gmail.com</strong>
+                        </a>
+                        <a href="https://github.com/CaioRenatoDot" target="_blank" rel="noopener noreferrer" class="contact-link-card">
+                            <span>GitHub</span>
+                            <strong>/CaioRenatoDot</strong>
+                        </a>
+                    </div>
+                </div>
+
+                <form action="https://formsubmit.co/196336feed00abcab4c83922663e68d6" method="POST" class="contact-form-panel" onsubmit="return showThankYouMessage()">
+                    <h2>Envie uma mensagem</h2>
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name" placeholder="Seu nome" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+
+                    <label for="message">Mensagem</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Conte um pouco sobre o que você precisa." required></textarea>
+
+                    <button type="submit" class="primary-button">Enviar mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-shell footer-grid">
+            <div>
+                <a href="index.html" class="brand-mark brand-mark--footer">
+                    <img src="images/android-chrome-192x192.png" class="brand-mark__logo" alt="Logo CaioRenatoDot">
+                    <span class="brand-mark__text">CaioRenatoDot</span>
+                </a>
+                <p class="footer-copy">
+                    Aberto a novas conexões, projetos interessantes e oportunidades de crescimento.
+                </p>
+            </div>
+            <div class="footer-links">
+                <div>
+                    <h3>Navegação</h3>
+                    <a href="index.html">Home</a>
+                    <a href="aboutme.html">Sobre mim</a>
+                    <a href="contato.html">Contato</a>
+                </div>
+                <div>
+                    <h3>Redes</h3>
+                    <a href="https://www.linkedin.com/in/caiorenato/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://github.com/CaioRenatoDot" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="mailto:caiorenato146@gmail.com">Email</a>
+                </div>
+            </div>
+        </div>
+        <div class="site-shell footer-bottom">
+            <p>Copyright © 2026. Criado por Caio Renato.</p>
+        </div>
+    </footer>
+
+    <script>
+        const menuToggle = document.querySelector("[data-menu-toggle]");
+        const menu = document.querySelector("[data-menu]");
+
+        if (menuToggle && menu) {
+            menuToggle.addEventListener("click", function () {
+                const isOpen = menu.classList.toggle("is-open");
+                menuToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+            });
         }
 
-        footer.show {
-            opacity: 1;
+        function showThankYouMessage() {
+            alert("Obrigado pela mensagem! O formulário será enviado agora.");
+            return true;
         }
-    </style>
-</footer>
-
-<script>
-    function isElementInViewport(el) {
-        const rect = el.getBoundingClientRect();
-        return (
-            rect.top >= 0 &&
-            rect.left >= 0 &&
-            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-        );
-    }
-
-    function showFooterOnScroll() {
-        const footer = document.querySelector('footer');
-        if (isElementInViewport(footer)) {
-            footer.classList.add('show');
-        }
-    }
-
-    window.addEventListener('scroll', showFooterOnScroll);
-    document.addEventListener('DOMContentLoaded', showFooterOnScroll);
-</script>
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    </script>
 </body>
 </html>
