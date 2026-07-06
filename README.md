@@ -45,7 +45,7 @@
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SEU-USUARIO&theme=radical&hide_border=true" alt="GitHub Streak"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=CaioRenatoDot&theme=radical&hide_border=true" alt="GitHub Streak"/>
 </div>
 
 ---
@@ -64,5 +64,5 @@
 ---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=SEU-USUARIO&color=FF6B6B&style=for-the-badge&label=Visitas+ao+perfil" alt="Profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=CaioRenatoDot&color=FF6B6B&style=for-the-badge&label=Visitas+ao+perfil" alt="Profile views"/>
 </div>
