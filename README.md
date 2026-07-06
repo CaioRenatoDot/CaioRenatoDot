@@ -9,7 +9,6 @@
 - 💻 Desenvolvedor apaixonado por tecnologia e resolução de problemas
 - 🌱 Atualmente aprofundando conhecimentos em **React** e **TypeScript**
 - 🎯 Focado em construir aplicações web modernas e performáticas
-- 🐧 Usuário de Linux no dia a dia
 - 📫 Como me encontrar: **caiorenato146@gmail.com**
 
 ---
