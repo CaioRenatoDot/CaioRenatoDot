@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" width="1000" height="260" role="img" aria-labelledby="t">
+  <title id="t">Caio Renato - Desenvolvedor Full Stack, Macei&#243;, Brasil</title>
+  <style>
+    .s { font-family: 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif; }
+    .m { font-family: ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace; }
+    .name { font-size: 52px; font-weight: 700; letter-spacing: 3px; fill: #1f2328; }
+    .role { font-size: 21px; font-weight: 500; letter-spacing: .5px; fill: #FF6B6B; }
+    .meta { font-size: 14.5px; fill: #656d76; letter-spacing: .3px; }
+    .lbl  { font-size: 13px; fill: #656d76; letter-spacing: .5px; }
+  </style>
+
+  <rect x="16" y="40" width="4" height="180" rx="2" fill="#FF6B6B">
+    <animate attributeName="height" values="0;180" dur=".7s" fill="freeze"/>
+  </rect>
+
+  <g opacity="1">
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;.10;.55" dur="1.4s" fill="freeze"/>
+    <text class="s name" x="46" y="106">CAIO RENATO</text>
+  </g>
+  <g opacity="1">
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;.20;.65" dur="1.4s" fill="freeze"/>
+    <text class="s role" x="49" y="142">Desenvolvedor Full Stack</text>
+  </g>
+  <g opacity="1">
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;.30;.75" dur="1.4s" fill="freeze"/>
+    <line x1="48" y1="172" x2="600" y2="172" stroke="#d0d7de" stroke-width="1"/>
+    <text class="m meta" x="48" y="200">Macei&#243;, Brasil  &#183;  caiorenatodot.vercel.app</text>
+  </g>
+
+  <g opacity="1">
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;.40;.80" dur="1.4s" fill="freeze"/>
+    <text class="m lbl" x="742" y="108" text-anchor="end">front</text>
+    <rect x="756" y="88" width="200" height="30" rx="8" fill="#FF6B6B"/>
+  </g>
+  <g opacity="1">
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;.50;.88" dur="1.4s" fill="freeze"/>
+    <text class="m lbl" x="742" y="152" text-anchor="end">api</text>
+    <rect x="756" y="132" width="160" height="30" rx="8" fill="#FF6B6B" opacity=".66"/>
+  </g>
+  <g opacity="1">
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;.60;1" dur="1.4s" fill="freeze"/>
+    <text class="m lbl" x="742" y="196" text-anchor="end">dados</text>
+    <rect x="756" y="176" width="120" height="30" rx="8" fill="#FF6B6B" opacity=".38"/>
+  </g>
+</svg>
