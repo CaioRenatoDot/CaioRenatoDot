@@ -1,62 +1,49 @@
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=FF6B6B&center=true&vCenter=true&width=600&height=70&lines=Hey%2C+I'm+Caio+Renato.;Welcome+to+my+profile!" alt="Typing SVG" />
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CaioRenatoDot/CaioRenatoDot/main/assets/banner-dark.svg">
+  <img alt="Caio Renato — Desenvolvedor Full Stack — Maceió, Brasil" src="https://raw.githubusercontent.com/CaioRenatoDot/CaioRenatoDot/main/assets/banner-light.svg">
+</picture>
 
----
+## Oi, eu sou o Caio
 
-## 🚀 Sobre mim
+Sou desenvolvedor full stack e gosto mesmo é de levar uma ideia do zero até o deploy: modelar o banco, escrever a API, construir a interface e colocar no ar. Boa parte do que está aqui nasceu de projetos de faculdade que eu resolvi levar mais a sério do que o enunciado pedia.
 
-- 💻 Desenvolvedor apaixonado por tecnologia e resolução de problemas
-- 🌱 Atualmente aprofundando conhecimentos em **React** e **TypeScript**
-- 🎯 Focado em construir aplicações web modernas e performáticas
-- 📫 Como me encontrar: **caiorenato146@gmail.com**
+Hoje estou aprofundando **TypeScript**, **Next.js** e arquitetura de APIs.
 
----
+## O que eu ando construindo
 
-## 🛠️ Tech Stack
+### [Watchd](https://github.com/CaioRenatoDot/ProjetoIntegradorMorrissey2)
 
-<div align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-</div>
+Um "Letterboxd para séries": watchlist, reviews com nota de meia em meia estrela, favoritos e listas temáticas, tudo exposto em um perfil público. A API é feita do zero — autenticação com JWT em cookie `httpOnly`, senhas com bcrypt, rate limiting e seis entidades no Prisma ligadas ao usuário com `onDelete: Cascade`. Os dados das séries vêm da TVMaze; no banco fica só o que é do usuário.
 
-### Ferramentas & Outros
+`React` · `Vite` · `Tailwind` · `Express` · `Prisma` · `PostgreSQL`
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
-</div>
+### [RiskCare](https://github.com/CaioRenatoDot/IHCTrabalhoMarcosUP1) &nbsp;·&nbsp; [ver no ar ↗](https://riskcare-psi.vercel.app/)
 
----
+Plataforma educativa de triagem orientativa para risco de câncer de mama, com visualização dos fatores associados. O foco aqui foi menos no CRUD e mais em clareza, acessibilidade e rastreabilidade — deixar explícito para o usuário de onde vem cada número.
 
-## 📊 Estatísticas do GitHub
+`React` · `Vite` · `Express` · `Prisma` · `Supabase` · `PostgreSQL`
 
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=CaioRenatoDot&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CaioRenatoDot&layout=compact&theme=radical&hide_border=true&langs_count=8" alt="Top Languages"/>
-</div>
+### [VoiceMatchAi](https://github.com/CaioRenatoDot/VoiceMatchAi)
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=CaioRenatoDot&theme=radical&hide_border=true" alt="GitHub Streak"/>
-</div>
+Aplicação de voz com IA: front em Next.js 16 com React 19 e shadcn/ui, back em FastAPI integrando OpenAI e ElevenLabs, com storage no Supabase e testes em pytest. Projeto em equipe, com padrão definido de branch, commit e PR.
 
----
+`Next.js` · `TypeScript` · `shadcn/ui` · `FastAPI` · `Supabase`
 
-## 🌐 Onde me encontrar
+### Também por aqui
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/caiorenato">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="mailto:caiorenato146@gmail.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-</div>
+- **[PokeSearch](https://github.com/CaioRenatoDot/PokeSearch)** — Pokédex em React com busca e animações, e as funções puras cobertas por testes no Vitest.
+- **[Forecasting Website](https://github.com/CaioRenatoDot/ForecastingWebsite)** — previsão do tempo traduzindo um design de alta fidelidade do Figma para uma app funcional.
+- **[MyLeetcodes](https://github.com/CaioRenatoDot/MyLeetcodes)** — minhas soluções de desafios de algoritmos.
 
+## Stack
+
+| Camada | O que uso |
+| :--- | :--- |
+| **Front-end** | React · Next.js · TypeScript · Tailwind CSS · Vite |
+| **Back-end** | Node.js · Express · Python · FastAPI |
+| **Dados** | PostgreSQL · Prisma · Supabase |
+| **Ferramentas** | Git · Vitest · pytest · Vercel · Linux |
+
+## Onde me achar
+
+[Portfólio](https://caiorenatodot.vercel.app) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/caiorenato) &nbsp;·&nbsp; [caiorenato146@gmail.com](mailto:caiorenato146@gmail.com)
