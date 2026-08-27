@@ -17,11 +17,6 @@ Um "Letterboxd para séries": watchlist, reviews com nota de meia em meia estrel
 
 `React` · `Vite` · `Tailwind` · `Express` · `Prisma` · `PostgreSQL`
 
-### [RiskCare](https://github.com/CaioRenatoDot/IHCTrabalhoMarcosUP1) &nbsp;·&nbsp; [ver no ar ↗](https://riskcare-psi.vercel.app/)
-
-Plataforma educativa de triagem orientativa para risco de câncer de mama, com visualização dos fatores associados. O foco aqui foi menos no CRUD e mais em clareza, acessibilidade e rastreabilidade — deixar explícito para o usuário de onde vem cada número.
-
-`React` · `Vite` · `Express` · `Prisma` · `Supabase` · `PostgreSQL`
 
 ### [VoiceMatchAi](https://github.com/CaioRenatoDot/VoiceMatchAi)
 
@@ -29,11 +24,6 @@ Aplicação de voz com IA: front em Next.js 16 com React 19 e shadcn/ui, back em
 
 `Next.js` · `TypeScript` · `shadcn/ui` · `FastAPI` · `Supabase`
 
-### Também por aqui
-
-- **[PokeSearch](https://github.com/CaioRenatoDot/PokeSearch)** — Pokédex em React com busca e animações, e as funções puras cobertas por testes no Vitest.
-- **[Forecasting Website](https://github.com/CaioRenatoDot/ForecastingWebsite)** — previsão do tempo traduzindo um design de alta fidelidade do Figma para uma app funcional.
-- **[MyLeetcodes](https://github.com/CaioRenatoDot/MyLeetcodes)** — minhas soluções de desafios de algoritmos.
 
 ## Stack
 
