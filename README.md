@@ -37,3 +37,5 @@ Aplicação de voz com IA: front em Next.js 16 com React 19 e shadcn/ui, back em
 ## Onde me achar
 
 [Portfólio](https://caiorenatodot.vercel.app) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/caiorenato) &nbsp;·&nbsp; [caiorenato146@gmail.com](mailto:caiorenato146@gmail.com)
+
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=caiorenatodot)](https://github.com/caiorenatodot/github-readme-stats)
